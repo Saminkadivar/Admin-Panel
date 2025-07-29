@@ -43,12 +43,13 @@ csharp
 Copy
 Edit
 ├── app/
----
+-
 ├── config/
---
+-
 ├── database/
 -
 ├── public/
+-
 ├── resources/
 │   ├── views/        # Blade templates (layouts, dashboard, etc.)
 ├── routes/
