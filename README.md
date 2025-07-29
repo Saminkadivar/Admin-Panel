@@ -10,7 +10,6 @@ A modern, responsive admin panel built with Laravel and Bootstrap. This project 
 - Dark/Light mode toggle
 - Notifications system (read/unread)
 - Responsive sidebar and header
-- Role-based access (extendable)
 - Clean UI with Bootstrap 5
 
 ## 🛠️ Technologies Used
@@ -26,5 +25,52 @@ A modern, responsive admin panel built with Laravel and Bootstrap. This project 
 git clone https://github.com/Saminkadivar/Admin-Panel.git
 cd Admin-Panel
 composer install
+
 cp .env.example .env
 php artisan key:generate
+
+php artisan migrate
+php artisan serve
+
+````
+
+| Email                                         | Password |
+| --------------------------------------------- | -------- |
+| [admin@example.com](mailto:admin@example.com) | password |
+
+📂 Folder Structure Overview
+csharp
+Copy
+Edit
+├── app/
+├── config/
+├── database/
+├── public/
+├── resources/
+│   ├── views/        # Blade templates (layouts, dashboard, etc.)
+├── routes/
+│   └── web.php       # All route definitions
+
+
+📸 Screenshots
+
+✨ Upcoming Features
+User roles & permissions
+
+Settings panel
+
+System logs & activity monitoring
+
+📃 License
+This project is open-source and available under the MIT license.
+
+
+---
+
+### 📌 Notes:
+- You can also create a `screenshots/` folder and place images like `dashboard.png` if you want visual previews.
+- If your project is hosted on GitHub, update the `git clone` link with your repo URL if it changes.
+- Let me know if you want a version that includes your **Movie Ticket System** or **File Converter Tool** too.
+
+
+
