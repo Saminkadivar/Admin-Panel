@@ -49,8 +49,12 @@ php artisan serve
 ├── routes/
 │   └── web.php       # All route definitions
 ```
+## 📸 Screenshot
 
-📸 Screenshots
+Here’s what the admin panel dashboard looks like:
+
+![Admin Dashboard](screenshots/dashboard.png)
+
 
 ✨ Upcoming Features
 User roles & permissions
