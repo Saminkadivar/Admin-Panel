@@ -53,7 +53,8 @@ php artisan serve
 
 Here’s what the admin panel dashboard looks like:
 
-![Admin Dashboard](screenshots/dashboard.png)
+![Admin Dashboard](screenshots/admindashboard.png)
+![Admin Profile](screenshots/adminprofile.png)
 
 
 ✨ Upcoming Features
