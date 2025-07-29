@@ -38,10 +38,7 @@ php artisan serve
 | --------------------------------------------- | -------- |
 | [admin@example.com](mailto:admin@example.com) | password |
 
-📂 Folder Structure Overview
-csharp
-Copy
-Edit
+
 ```bash
 ├── app/
 ├── config/
