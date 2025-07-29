@@ -43,8 +43,11 @@ csharp
 Copy
 Edit
 ├── app/
+---
 ├── config/
+--
 ├── database/
+-
 ├── public/
 ├── resources/
 │   ├── views/        # Blade templates (layouts, dashboard, etc.)
@@ -62,15 +65,10 @@ Settings panel
 System logs & activity monitoring
 
 📃 License
+
 This project is open-source and available under the MIT license.
 
 
----
-
-### 📌 Notes:
-- You can also create a `screenshots/` folder and place images like `dashboard.png` if you want visual previews.
-- If your project is hosted on GitHub, update the `git clone` link with your repo URL if it changes.
-- Let me know if you want a version that includes your **Movie Ticket System** or **File Converter Tool** too.
 
 
 
