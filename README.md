@@ -42,19 +42,16 @@ php artisan serve
 csharp
 Copy
 Edit
+```bash
 ├── app/
--
 ├── config/
--
 ├── database/
--
 ├── public/
--
 ├── resources/
 │   ├── views/        # Blade templates (layouts, dashboard, etc.)
 ├── routes/
 │   └── web.php       # All route definitions
-
+```
 
 📸 Screenshots
 
