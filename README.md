@@ -34,10 +34,6 @@ php artisan serve
 
 ````
 
-| Email                                         | Password |
-| --------------------------------------------- | -------- |
-| [admin@example.com](mailto:admin@example.com) | password |
-
 
 ```bash
 ├── app/
