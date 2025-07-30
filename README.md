@@ -32,7 +32,19 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 
+php artisan tinker
+\App\Models\Admin::create([
+    'name' => 'Admin',
+    'email' => 'admin@example.com',
+    'password' => bcrypt('password123')
+]);
+
 ````
+
+| Email                                         | Password |
+| --------------------------------------------- | -------- |
+| [admin@example.com](mailto:admin@example.com) | password123 |
+
 
 
 ```bash
